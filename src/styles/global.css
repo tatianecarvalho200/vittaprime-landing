@@ -371,3 +371,64 @@ section[id] { scroll-margin-top: 110px; }
   .floating-whatsapp span { display: none; }
   .floating-whatsapp { width: 58px; height: 58px; padding: 0; justify-content: center; border-radius: 50%; }
 }
+@media (max-width: 768px) {
+  .about,
+  .sobre,
+  .section-about {
+    padding: 40px 20px 24px;
+  }
+
+  .features,
+  .benefits,
+  .diferenciais {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px 12px;
+    margin-bottom: 28px;
+  }
+
+  .feature,
+  .benefit,
+  .diferencial {
+    text-align: center;
+  }
+
+  .feature p,
+  .benefit p,
+  .diferencial p {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  .about-image,
+  .sobre-image,
+  .owners-image {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto 28px;
+    border-radius: 22px;
+    overflow: hidden;
+  }
+
+  .about-image img,
+  .sobre-image img,
+  .owners-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 22px;
+  }
+
+  .tratamentos,
+  .treatments,
+  #tratamentos {
+    padding-top: 20px;
+  }
+
+  .whatsapp-float {
+    right: 18px;
+    bottom: 24px;
+    width: 58px;
+    height: 58px;
+  }
+}
